@@ -1,5 +1,5 @@
 .fa {
-    padding: 20px;
+    padding: 7px;
     font-size: 30px;
     width: 30px;
     text-align: center;
@@ -9,7 +9,7 @@
   }
   
   .fa:hover {
-      opacity: 0.7;
+      opacity: 0.5;
   }
  
   .features{
@@ -19,7 +19,7 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
-    background-color: #e2934a;
+   
 }
 .s-heading{
 	text-align:center;
@@ -56,7 +56,7 @@
 	box-sizing: border-box;
 	margin: 30px;
 	position: relative;
-    
+  background-color: #e2934a;
 }
 .s-box img{
 	height: 180px;
@@ -75,13 +75,22 @@
 .s-btn{
 	width: 140px;
 	height: 40px;
-	border-radius: 20px;
-	border:1px solid rgb(187, 216, 255);
+	border-radius: 5px;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color:#576975;
+	color:#04174d;
 	margin-top:10px; 
+}
+
+.s-box button{
+  padding: 10px;
+  width: 140px;
+  background-color: #052541;
+  color: antiquewhite;
+  border-radius: 10px;
+  font-size: 17px;
 }
 .bar{
 	width: 100px;
